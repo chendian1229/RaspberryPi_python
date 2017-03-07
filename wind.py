@@ -26,7 +26,7 @@ try:
             if temp_last<=49.5:
                 p.ChangeDutyCycle(100)
             time.sleep(0.1)
-        print(temp)
+        #print(temp)
         temp_last=temp
 except KeyboardInterrupt:
     pass
