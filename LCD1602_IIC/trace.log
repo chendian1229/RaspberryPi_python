@@ -1,0 +1,118 @@
+2014-12-11 13:15:51 LCD1602.py[line:73] INFO LCD init over
+2014-12-11 13:15:51 LCD1602.py[line:75] INFO LCD turning on BLight
+2014-12-11 13:18:18 LCD1602.py[line:73] INFO LCD init over
+2014-12-11 13:18:18 LCD1602.py[line:75] INFO LCD turning on BLight
+2014-12-11 13:18:39 LCD1602.py[line:73] <INFO> LCD init over
+2014-12-11 13:18:39 LCD1602.py[line:75] <INFO> LCD turning on BLight
+2014-12-11 13:27:02 LCD1602.py[line:73] <INFO> LCD init over
+2014-12-11 13:27:02 LCD1602.py[line:75] <INFO> LCD turning on BLight
+2014-12-11 13:27:04 test.py[line:16] <INFO> wait 5 seconds
+2014-12-11 13:27:04 LCD1602.py[line:17] <INFO> LCD executed turn off BLight
+2014-12-11 13:27:04 test.py[line:18] <INFO> turn off BLight
+2014-12-11 13:28:56 <INFO> LCD1602.py[line:73] LCD init over
+2014-12-11 13:28:56 <INFO> LCD1602.py[line:75] LCD turning on BLight
+2014-12-11 13:28:58 <INFO> test.py[line:16] wait 5 seconds
+2014-12-11 13:28:58 <INFO> LCD1602.py[line:17] LCD executed turn off BLight
+2014-12-11 13:28:58 <INFO> test.py[line:18] turn off BLight
+2014-12-11 13:32:40 <INFO> [line:73] LCD1602.py : LCD init over
+2014-12-11 13:32:40 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2014-12-11 13:32:42 <INFO> [line:16] test.py : wait 5 seconds
+2014-12-11 13:32:42 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-11 13:32:42 <INFO> [line:18] test.py : turn off BLight
+2014-12-11 13:38:57 <INFO> [line:73] LCD1602.py : LCD init over
+2014-12-11 13:38:57 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2014-12-11 13:38:59 <INFO> [line:16] LCD_test.py : wait 5 seconds
+2014-12-11 13:38:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-11 13:38:59 <INFO> [line:18] LCD_test.py : turn off BLight
+2014-12-11 22:15:39 <INFO> [line:73] LCD1602.py : LCD init over
+2014-12-11 22:15:39 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2014-12-11 22:15:41 <INFO> [line:16] LCD_test.py : wait 5 seconds
+2014-12-11 22:15:41 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-11 22:15:41 <INFO> [line:18] LCD_test.py : turn off BLight
+2014-12-12 19:58:55 <INFO> [line:73] LCD1602.py : LCD init over
+2014-12-12 19:58:55 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2014-12-12 19:58:57 <INFO> [line:16] LCD_test.py : wait 5 seconds
+2014-12-12 19:58:57 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-12 19:58:57 <INFO> [line:18] LCD_test.py : turn off BLight
+2014-12-12 19:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-12 20:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-12 21:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-12 21:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-12 22:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-12 22:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-12 23:59:01 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-12 23:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-13 00:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-13 00:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-13 01:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-13 01:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-13 02:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-13 02:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-13 03:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-13 04:00:00 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-13 04:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-13 05:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-13 05:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-13 06:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-13 06:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2014-12-13 07:59:00 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2014-12-13 07:59:59 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2017-03-07 23:08:04 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-07 23:08:04 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-07 23:08:05 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 13:55:05 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 13:55:05 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 13:55:05 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 13:56:49 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 13:56:49 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 13:56:50 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 14:07:10 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 14:07:10 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 14:07:12 <INFO> [line:16] LCD_test.py : wait 2 seconds
+2017-03-08 14:07:12 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 14:07:12 <INFO> [line:18] LCD_test.py : turn on BLight
+2017-03-08 14:09:02 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 14:09:02 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 14:09:02 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 14:09:48 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 14:09:48 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 14:09:48 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 14:33:16 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 14:33:16 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 14:33:17 <INFO> [line:17] LCD1602.py : LCD executed turn off BLight
+2017-03-08 14:51:37 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 14:51:37 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 14:51:37 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 14:58:39 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 14:58:39 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 14:58:39 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 14:59:45 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 14:59:45 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 14:59:45 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:12:14 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 15:12:14 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 15:12:14 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:13:24 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 15:13:24 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 15:13:24 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:15:39 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 15:15:39 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 15:15:39 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:42:54 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 15:42:54 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 15:42:54 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:51:34 <INFO> [line:77] LCD1602.py : LCD init over
+2017-03-08 15:51:34 <INFO> [line:79] LCD1602.py : LCD turning on BLight
+2017-03-08 15:51:34 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:52:03 <INFO> [line:77] LCD1602.py : LCD init over
+2017-03-08 15:52:03 <INFO> [line:79] LCD1602.py : LCD turning on BLight
+2017-03-08 15:52:03 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:52:32 <INFO> [line:77] LCD1602.py : LCD init over
+2017-03-08 15:52:32 <INFO> [line:79] LCD1602.py : LCD turning on BLight
+2017-03-08 15:52:33 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:52:55 <INFO> [line:77] LCD1602.py : LCD init over
+2017-03-08 15:52:55 <INFO> [line:79] LCD1602.py : LCD turning on BLight
+2017-03-08 15:52:55 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 15:53:36 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 15:53:37 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 15:53:37 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
