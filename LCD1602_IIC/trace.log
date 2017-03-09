@@ -116,3 +116,6 @@
 2017-03-08 15:53:36 <INFO> [line:73] LCD1602.py : LCD init over
 2017-03-08 15:53:37 <INFO> [line:75] LCD1602.py : LCD turning on BLight
 2017-03-08 15:53:37 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
+2017-03-08 22:38:46 <INFO> [line:73] LCD1602.py : LCD init over
+2017-03-08 22:38:46 <INFO> [line:75] LCD1602.py : LCD turning on BLight
+2017-03-08 22:38:46 <INFO> [line:14] LCD1602.py : LCD executed turn on BLight
