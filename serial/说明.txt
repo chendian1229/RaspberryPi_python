@@ -1,0 +1,5 @@
+import serial时候的bug，
+文件名不能定义为serial,
+否则会找不到serial模块，出现意外情况
+By the way,这模块有毒，卡了我两天了，
+万万没想到是文件名坑了我
