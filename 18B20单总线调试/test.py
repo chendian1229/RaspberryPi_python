@@ -8,7 +8,6 @@ os.system('modprobe w1-therm')
 base_dir = '/sys/bus/w1/devices/'
 device_folder = glob.glob(base_dir + '28*')[0]
 device_file = device_folder + '/w1_slave'
-
 def read_rom():
     name_file=device_folder+'/name'
     f = open(name_file,'r')
@@ -32,11 +31,7 @@ def read_temp():
         temp_f = temp_c * 9.0 / 5.0 + 32.0
         return temp_c, temp_f
 
-if __name__=='__main__':
-    print('rom:'+read_rom())
-    try:
-        while True:
-            print('C=%3.3f  F=%3.3f'% read_temp())
-        time.sleep(1)
-    except KeyboardInterrupt:
-        print('exit')
+print(' rom: '+ read_rom())
+while True:
+    print(' C=%3.3f  F=%3.3f'% read_temp())
+time.sleep(1)
