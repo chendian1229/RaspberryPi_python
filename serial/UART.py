@@ -19,10 +19,10 @@ def main():
         if count != 0:
             # 读取内容并回显
             recv = ser.read(count)
-            print(type(recv),recv)
-            r=str(recv)
-            print(type(r),r)
-            #showdata(recv)
+            #print(type(recv),recv)
+            r=bytes(recv).decode('ascii')
+            print(r,  recv)
+            
             ser.write(recv)
         # 清空接收缓冲区
         ser.flushInput()
