@@ -15,7 +15,7 @@ if __name__=="__main__":
             bus.write_byte_data(address,cmd,value)
             value+=1
             if value==256:
-                value=1
+                value=0
             #print("AOUT:%3d"%value)
             time.sleep(0.01)
     except:
