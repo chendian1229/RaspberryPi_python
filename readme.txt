@@ -9,6 +9,8 @@
 7.LCD1602显示本机IP地址		Date:2017.3.28
 8.PCF8591AD/DA_IIC数模芯片 AD测试 Date:2017.3.31
 9.PCF8591AD/DA_IIC数模芯片 DA测试 Date:2017.3.31
+10.LCD串口屏幕测试通过_动态显示	Date:2017.4.1
+
 
 
 
