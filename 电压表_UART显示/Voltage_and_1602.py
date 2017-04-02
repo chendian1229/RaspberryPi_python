@@ -1,10 +1,11 @@
 #!/usr/bin/pyhon
 # -*- coding:utf-8 -*-
 
-import smbus
-import time
-import serial
-import LCD1602 as LCD
+#导入模块
+import smbus	#IIC
+import time	
+import serial	#串口屏幕
+import LCD1602 as LCD　
 
 t=serial.Serial('/dev/ttyUSB0',9600)
 bus=smbus.SMBus(1)
@@ -14,8 +15,6 @@ address=0x48
 #A1=0x41
 #A2=0x42
 A3=0x43
-
-value=0
 
 def end_uart_lcd(l):
     l.write("\xff")
