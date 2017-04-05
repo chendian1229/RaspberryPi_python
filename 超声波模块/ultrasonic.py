@@ -18,12 +18,12 @@ def dis():  #测距函数
     GPIO.output(GPIO_TRIGGER, True) #设置trigger为高电平  
     time.sleep(0.00001)  
     GPIO.output(GPIO_TRIGGER, False)  
-    start = time.time()  #记录发射超声波开始时间  
+    #start = time.time()  #记录发射超声波开始时间  
   
-    while GPIO.input(GPIO_ECHO)==0:  
+    while GPIO.input(GPIO_ECHO)==GPIO.LOW:  
         start = time.time()  
   
-    while GPIO.input(GPIO_ECHO)==1:  
+    while GPIO.input(GPIO_ECHO)==GPIO.HIGH:  
         stop = time.time()  #记录接收到超声波时间  
       
     elapsed = stop-start   #计算一共花费多长时间  
