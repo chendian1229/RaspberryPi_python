@@ -19,7 +19,7 @@ def loop():
 
 app=Application()
 app.master.title('hello windows')
-#app.geometry('300x200')
+app.geometry('300x200')
 app.mainloop()
 
     
