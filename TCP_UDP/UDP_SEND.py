@@ -1,8 +1,8 @@
 import socket   
 import time
  
-DST_IP = "192.168.1.111"
-DST_PORT = 1112
+DST_IP = "192.168.1.110"
+DST_PORT = 8080
  
 #建立Socket，SOCK_DGRAM表示Socket类型为UDP
 print("Starting socket: UDP...")
