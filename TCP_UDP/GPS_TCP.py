@@ -19,7 +19,9 @@ while True:
         data=tcpCliSock.recv(BUFSIZ)
         if not data:
             break
-        data=bytes(data).decode('ascii')
+        i=bytes(data).decode('ascii')
+        #i=str(data)
+        print(i)
         print(data)
     tcpCliSock.close()
 tcpCliSock.close()
