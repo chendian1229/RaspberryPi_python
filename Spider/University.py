@@ -16,7 +16,7 @@ def fillUnivList(ulist,html):
     for tr in soup.find('tbody').children:
         if isinstance(tr,bs4.element.Tag):
             tds=tr('td')
-            ulist.append([tds[0].string,tds[1].string,tds[3].string])            
+            ulist.append([tds[0].string,tds[1].string,tds[2].string])            
     pass
 
 def printUnivList(ulist,num):
