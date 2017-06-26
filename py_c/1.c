@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-int foo(int a,int b)
+float foo(float a,float b)
 {
-	printf("you input %d and %d\n",a,b);
-	return a+b;
+	static float s=0;
+	printf("you input %.2f and %.2f==%.2f\n",a,b,s);
+	s=a+b+s;
+	return s;
 }

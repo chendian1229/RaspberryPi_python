@@ -4,9 +4,9 @@
 
 float PID(parameter K )
 {
-	float s;
+	float s=0;
 	s=K.P+K.I+K.D;
-	printf("%f\n",s);
+	printf("%0.2f\n",s);
 	return s;
 }
 
