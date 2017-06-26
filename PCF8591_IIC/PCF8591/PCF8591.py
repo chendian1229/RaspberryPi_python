@@ -41,5 +41,6 @@ if __name__=="__main__":
             b=DA(j)
             time.sleep(0.02)
     except KeyboardInterrupt:
-        pass
+        del a
+        del b
     
