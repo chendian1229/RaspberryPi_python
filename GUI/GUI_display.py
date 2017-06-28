@@ -18,35 +18,51 @@ class Application():
         self.root=root
         self.createFrameTop()
 
+    #创建总框架方法
     def createFrameTop(self):
+        #总框架结构，填充整个空白区域
+        self.frm_top=LabelFrame(self.root,text="电压",font=("Helvetica",32))
+        self.frm_top.pack(expand=1,fill=BOTH)
 
-        self.frm_top=LabelFrame(self.root,text="Vol")
-        self.frm_top.pack()
+        #数值标签，显示电压数值
+        self.value_label=Label(self.frm_top,text='0.00V',font=("Helvetica",50))
+        self.value_label.pack(expand=1)
 
-        self.frm_label=Label(self.frm_top,text='0')
-        self.frm_label.pack()
+        #建立显示进度条，电压范围
+        self.scale=Scale(self.frm_top,from_=0,to=3.3,orient=HORIZONTAL,
+                         length=200,resolution=0.001)
+        self.scale.pack()
 
-        self.frm_button=Button(self.frm_top,text='start',command=self.click)
-        self.frm_button.pack()
+        #开始按钮
+        self.start_button=Button(self.frm_top,text='开始',command=self.click,font=("Helvetica",25))
+        self.start_button.pack(side='left',expand=1)
 
+        #结束进程按钮
+        self.quit_button=Button(self.frm_top,text="关闭",command=self.root.quit,font=("Helvetica",25))
+        self.quit_button.pack(side='right',expand=1)
+
+    #单击开始按钮事件方法
     def click(self):
         global g_show_flag
 
-        if self.frm_button['text']=="start":
+        if self.start_button['text']=="开始":
             g_show_flag=True
-            self.frm_button['text']="stop"
+            self.start_button['text']="停止"
             self.show()
         else:
-            self.frm_button['text']="start"
+            self.start_button['text']="开始"
             g_show_flag=False
 
+
+    #显示电压数值方法
     def show(self):
         global g_show_flag
         bus.write_byte(address,A3)
         value=bus.read_byte(address)
         #self.frm_label['text']=random.choice(list(range(0,99)))
-        self.frm_label['text']=str(value*3.3/256)[0:5]+"V"
-        time.sleep(0.3)
+        self.scale.set(value*3.3/256)
+        self.value_label['text']=str(value*3.3/256)[0:5]+"V"
+        time.sleep(0.05)
         if g_show_flag:
             self.root.after(64,self.show)
 
@@ -54,10 +70,12 @@ class Application():
 if __name__=="__main__":
 
     root=Tk()
-    root.title("Display")
+    root.geometry('400x300')        #设定TK尺寸
+    root.title("电压测量")           #设定TK的title
 
-    Application(root)
+    Application(root)               #实例化root
     root.mainloop()
+
     
 
 
