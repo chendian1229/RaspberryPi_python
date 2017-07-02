@@ -35,16 +35,16 @@ while run:
         print("Setting tag")
         util.set_tag(uid)
         print("\nAuthorizing")
-        #util.auth(rdr.auth_a, [0x12, 0x34, 0x56, 0x78, 0x96, 0x92])
+        util.auth(rdr.auth_a, [0x12, 0x34, 0x56, 0x78, 0x96, 0x92])
         #util.auth(rdr.auth_b, [0x74, 0x00, 0x52, 0x35, 0x00, 0xFF])
         
         #util.auth(rdr.auth_a, [0xA0,0xB0,0xC0,0xD0 ,0xE0 ,0xF0])
-        util.auth(rdr.auth_b, [0xFF,0xFF ,0xFF ,0xFF ,0xFF ,0xFF ])
+        #util.auth(rdr.auth_b, [0xFF,0xFF ,0xFF ,0xFF ,0xFF ,0xFF ])
         
         print("\nReading")
-        for i in range(16):
+        for i in range(8):
             util.read_out(i)
-            time.sleep(0.2)
+            #time.sleep(0.2)
         print("\nDeauthorizing")
         util.deauth()
 
