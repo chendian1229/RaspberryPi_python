@@ -37,9 +37,11 @@ if __name__=="__main__":
             s=a.get_value()
             print(s)
             time.sleep(0.5)
+            
         for j in range(20,255):
             b=DA(j)
             time.sleep(0.02)
+            
     except KeyboardInterrupt:
         del a
         del b

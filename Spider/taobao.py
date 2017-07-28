@@ -32,8 +32,8 @@ def printGoodsList(ilt):
         print(tplt.format(count,g[0],g[1]))
 
 def main():
-    goods='书包'                                   #检索关键字 
-    depth=2                                        #爬取深度规定
+    goods='鼠标'                                   #检索关键字 
+    depth=1                                        #爬取深度规定
     start_url="https://s.taobao.com/search?q="+goods     #爬取页面链接
     infoList=[]                                     #输入列表
     for i in range(depth):

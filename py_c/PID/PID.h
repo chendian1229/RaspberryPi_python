@@ -3,11 +3,11 @@
 
 typedef struct parameter
 {
-	float P;
-	float I;
-	float D;
+	double P;
+	double I;
+	double D;
 }parameter;
 
-float PID(parameter K);
+double PID(parameter K);
 
 #endif

@@ -1,10 +1,11 @@
 #include <math.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "PID.h"
 
-float PID(parameter K )
+double PID(parameter K )
 {
-	float s=0;
+	double s;
 	s=K.P+K.I+K.D;
 	printf("%0.2f\n",s);
 	return s;

@@ -26,7 +26,7 @@ class LCD:
 if __name__=="__main__":
     try:
         tag1=LCD("t0.txt")
-        tag1.print_value(234)
+        tag1.print_value("test")
     except KeyboardInterrupt:
         del tag1
         print("Exit")

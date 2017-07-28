@@ -17,9 +17,13 @@ class Application(Frame):
         self.label1=Label(self,text="test!")
         self.label1.grid(row=0,column=0,sticky=NE)
 
-        #创建一个
+        #创建一个输入文本标签
         self.text1=Entry(self)
         self.text1.grid(row=1,column=2)
+
+        #输入一个显示文本
+        self.text2=Text(self,width=20,height=10)
+        self.text2.grid(row=1,column=2)
         
         #定义两个可选中标签
         self.check1=Checkbutton(self,text="Suger",variable=self.varSuger)
@@ -64,7 +68,7 @@ if __name__=="__main__":
     try:
         root=Tk()
         root.title('grid GUI style')
-        root.geometry('300x200')
+        root.geometry('600x400')
         app=Application(root)       #实例化子类，并继承父类方法与属性
         app.mainloop()
     except KeyboardInterrupt:
